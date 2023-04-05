@@ -48,22 +48,27 @@ root = 6 olsun.
 root'un sağında 6'dan büyük elemanlar bulunur. solunda 6'dan küçük elemanlar bulunur.
 
 küçük elemanlar -> [5,1,3,0,4,2]
-  küçük elemanlar için yeni root = 3 olsun.
-    solunda kalanlar -> [1,0,2]
+-küçük elemanlar için yeni root = 3 olsun.
+
+-solunda kalanlar -> [1,0,2]
       root = 0
       solunda kalanlar -> []
       sağında kalanlar -> [1,2]
         root = 1
         solunda kalanlar -> []
         sağında kalanlar -> [2]
-    sağında kalanlar -> [5,4]
+ 
+ -sağında kalanlar -> [5,4]
       root = 5
       solunda kalanlar -> [4]
       sağında kalanlar -> []
+
 büyük elemanlar -> [7,8,9]
-  büyük elemanlar için yeni root = 8 olsun.
-  solunda kalanlar -> [7]
-  sağında kalanlar -> [9]
+-büyük elemanlar için yeni root = 8 olsun.
+  
+  -solunda kalanlar -> [7]
+  
+  -sağında kalanlar -> [9]
 
 
 
